@@ -6,7 +6,7 @@ Documento de acompanhamento do desenvolvimento do projeto. Esta pagina registra 
 
 **Versao:** 1.0.0 academica
 
-**Situacao:** funcional para controle de plantio durante a execucao do programa.
+**Situacao:** funcional para controle de plantio durante a execucao do programa, com documentacao publica e memoria tecnica para futuros agentes.
 
 ## Historico do desenvolvimento
 
@@ -65,6 +65,8 @@ Documento de acompanhamento do desenvolvimento do projeto. Esta pagina registra 
   - abordagem pedagogica;
   - limitacoes atuais.
 - Criado este arquivo `ROADMAP.md` para acompanhar a evolucao do projeto.
+- Criado `MEMORY.md` para registrar decisoes tecnicas, restricoes pedagogicas e contexto de trabalho para futuros agentes de IA.
+- Definida a responsabilidade de manter `README.md`, `ROADMAP.md` e `MEMORY.md` atualizados conforme o projeto evoluir.
 
 ### 5. Validacao realizada
 
@@ -79,10 +81,13 @@ controle-plantacao/
 |-- controle_plantacao.py   # Interface e regras de negocio
 |-- README.md                # Documentacao para uso e apresentacao
 |-- ROADMAP.md               # Historico e proximas etapas
+|-- MEMORY.md                # Memoria tecnica para agentes de IA
 |-- Prompt Python.md         # Requisitos originais da atividade
 ```
 
 O estado atual da fazenda e mantido em memoria por meio de uma lista bidimensional. Nao existe persistencia em arquivo ou banco de dados.
+
+O `MEMORY.md` complementa este documento: o roadmap acompanha a evolucao e as entregas do projeto, enquanto a memoria tecnica concentra as decisoes que devem ser respeitadas durante futuras alteracoes.
 
 ## Proximas etapas
 
@@ -116,6 +121,9 @@ O estado atual da fazenda e mantido em memoria por meio de uma lista bidimension
 - A biblioteca grafica principal deve continuar sendo `tkinter`/`ttk`.
 - Dependencias externas devem ser evitadas enquanto nao forem necessarias.
 - Alteracoes futuras devem preservar os comentarios didaticos do codigo.
+- O `MEMORY.md` deve ser consultado antes de alteracoes estruturais ou de interface.
+- Novas decisoes arquiteturais, restricoes ou mudancas de comportamento devem ser refletidas no `MEMORY.md`.
+- Mudancas relevantes de funcionalidade devem ser registradas neste roadmap e, quando afetarem o uso, tambem no `README.md`.
 
 ## Como atualizar este roadmap
 
@@ -125,4 +133,5 @@ Ao concluir uma etapa:
 2. Atualizar a versao ou o status atual quando houver uma entrega relevante.
 3. Registrar novas decisoes arquiteturais ou restricoes.
 4. Adicionar novas tarefas na secao de prioridade adequada.
-5. Atualizar tambem o `README.md` quando o comportamento de uso mudar.
+5. Atualizar o `MEMORY.md` quando uma decisao tecnica ou regra de trabalho mudar.
+6. Atualizar tambem o `README.md` quando o comportamento de uso mudar.
