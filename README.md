@@ -73,9 +73,18 @@ No Windows, tambem e possivel utilizar o caminho completo do interpretador:
 ```text
 controle-plantacao/
 |-- controle_plantacao.py   # Aplicacao principal
-|-- README.md                # Documentacao do projeto
+|-- README.md                # Documentacao publica para uso e apresentacao
+|-- ROADMAP.md               # Historico do desenvolvimento e proximas etapas
+|-- MEMORY.md                # Decisoes tecnicas e contexto para futuros agentes de IA
 |-- Prompt Python.md         # Requisitos pedagogicos e regras da atividade
 ```
+
+### Documentacao de apoio
+
+- [`README.md`](README.md): apresenta o projeto, seus requisitos e instrucoes de uso.
+- [`ROADMAP.md`](ROADMAP.md): registra o historico das entregas, o status atual e as funcionalidades planejadas.
+- [`MEMORY.md`](MEMORY.md): concentra decisoes arquiteturais, restricoes pedagogicas e orientacoes para futuros desenvolvimentos com agentes de IA.
+- [`Prompt Python.md`](Prompt%20Python.md): contem os requisitos originais e as regras de negocio da atividade.
 
 ## Abordagem pedagogica
 
@@ -89,12 +98,17 @@ O programa segue o paradigma procedural puro:
 
 A matriz utiliza listas bidimensionais para representar as areas. Cada posicao armazena o nome da cultura ou o valor `Livre`.
 
+O projeto deve permanecer procedural e sem classes personalizadas. A interface utiliza o tema escuro `clam` do `ttk.Style`, inicia em 960 x 720 e possui tamanho minimo de 900 x 700 para preservar a matriz e os controles laterais.
+
 ## Observacoes
 
 - Os dados nao sao gravados em arquivo ou banco de dados.
 - Ao fechar o programa, o controle atual e perdido.
 - Cada nova execucao inicia com as 49 areas livres.
 - O relatorio representa somente o estado registrado durante a execucao atual.
+- O `ROADMAP.md` deve ser atualizado quando uma etapa relevante for concluida.
+- O `MEMORY.md` deve ser atualizado quando houver uma nova decisao tecnica, restricao ou convencao de desenvolvimento.
+- O `README.md` deve ser atualizado quando o comportamento de uso ou a estrutura publica do projeto mudar.
 
 ## Validacao
 
