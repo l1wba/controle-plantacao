@@ -4,6 +4,13 @@ Aplicacao desktop em Python para registrar e acompanhar o plantio realizado em u
 
 O projeto foi desenvolvido com foco didatico no ensino de logica de programacao estruturada e procedural, utilizando `tkinter` e `tkinter.ttk` para a interface grafica.
 
+## Alunos envolvidos
+
+- [Luciano Rocha](https://github.com/l1wba)
+- [Maria Eduarda Hernandes](https://github.com/mariahernands)
+- [Danielly Dodo](https://github.com/daniellydodo)
+- [Matheus Garona](https://github.com/garonaz)
+
 ## Funcionalidades
 
 - Visualizacao da fazenda em uma matriz com 49 areas.
