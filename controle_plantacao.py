@@ -407,6 +407,8 @@ def criar_interface():
                 frame_matriz_container,
                 text=f"Área ({r},{c})\nLIVRE",
                 font=("Segoe UI Semibold", 8),
+                width=12,
+                height=3,
                 bg=cores_culturas["Livre"]["bg"],
                 fg=cores_culturas["Livre"]["fg"],
                 activebackground=cores_culturas["Livre"]["active_bg"],
